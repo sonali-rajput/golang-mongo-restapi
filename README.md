@@ -30,7 +30,7 @@ Before running this project, make sure you have the following installed:
 ## 🏗️ Project Structure
 
 ```
-mongo-golang/
+golang-mongo-restapi/
 ├── controllers/
 │   └── user.go          # User controller with HTTP handlers
 ├── models/
@@ -47,7 +47,7 @@ mongo-golang/
 
 ```bash
 git clone <repository-url>
-cd mongo-golang
+cd golang-mongo-restapi
 ```
 
 ### 2. Start MongoDB with Docker Compose
