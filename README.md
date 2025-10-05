@@ -116,7 +116,7 @@ type User struct {
 }
 ```
 
-## 🧪 Testing the API
+## Testing the API
 
 You can test the API using tools like Postman, curl, or any HTTP client:
 
@@ -171,7 +171,7 @@ The application uses the following default configuration:
 
 To modify these settings, update the respective values in `main.go`.
 
-## 📦 Dependencies
+## Dependencies
 
 Key dependencies used in this project:
 
