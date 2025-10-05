@@ -2,7 +2,7 @@
 
 A simple RESTful API built with Golang and MongoDB for user management. This project demonstrates how to create a REST API with CRUD operations using Go's `httprouter` and MongoDB's official Go driver.
 
-## 🚀 Features
+## Features
 
 - **Create User**: Add new users to the database
 - **Get User**: Retrieve user information by ID
@@ -11,7 +11,7 @@ A simple RESTful API built with Golang and MongoDB for user management. This pro
 - **Docker Support**: Includes Docker Compose for easy MongoDB setup
 - **JSON API**: RESTful endpoints that return JSON responses
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Go 1.24.4
 - **Database**: MongoDB (latest)
@@ -19,7 +19,7 @@ A simple RESTful API built with Golang and MongoDB for user management. This pro
 - **MongoDB Driver**: go.mongodb.org/mongo-driver
 - **Containerization**: Docker & Docker Compose
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this project, make sure you have the following installed:
 
@@ -27,7 +27,7 @@ Before running this project, make sure you have the following installed:
 - [Docker](https://www.docker.com/get-started) and Docker Compose
 - [Git](https://git-scm.com/)
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 golang-mongo-restapi/
@@ -41,7 +41,7 @@ golang-mongo-restapi/
 └── go.sum              # Go module checksums
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -104,7 +104,7 @@ The API server will start on `http://localhost:8080`
 - **Parameters**: `id` (MongoDB ObjectID)
 - **Response**: Confirmation message or 404 if not found
 
-## 📝 Data Model
+## Data Model
 
 ### User
 ```go
@@ -137,7 +137,7 @@ curl http://localhost:8080/user/{user-id}
 curl -X DELETE http://localhost:8080/user/{user-id}
 ```
 
-## 🐳 Docker Commands
+## Docker Commands
 
 ### Start MongoDB
 ```bash
@@ -159,7 +159,7 @@ docker-compose logs mongo
 docker-compose exec mongo mongosh -u mongoadmin -p password --authenticationDatabase admin
 ```
 
-## 🔧 Configuration
+## Configuration
 
 The application uses the following default configuration:
 
@@ -179,19 +179,7 @@ Key dependencies used in this project:
 - `go.mongodb.org/mongo-driver` - MongoDB driver for Go
 - Standard Go packages: `context`, `encoding/json`, `net/http`, `time`
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -215,7 +203,7 @@ docker-compose restart mongo
 docker-compose logs mongo
 ```
 
-## 📚 Learning Resources
+## Learning Resources
 
 This project is a great starting point for learning:
 - Go web development
